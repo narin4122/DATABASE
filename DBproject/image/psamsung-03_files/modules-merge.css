@@ -1,0 +1,61 @@
+@charset "utf-8";
+.ss_samsung #recommennd-items .module-heading .heading-text,
+html .ss_samsung.home #recommennd-items .module-heading .heading-text,
+html .ss_samsung.category #recommennd-items .module-heading .heading-text {font-family: 'pslKittithadaBold', 'arial', 'tahoma', 'SamsungIFBd', 'sans-serif' !important; font-weight:bold; }
+
+html .ss_samsung.home #recommennd-items .module-heading .heading-text,
+html .ss_samsung.category #recommennd-items .module-heading .heading-text{font-size:33px !important;line-height:1}
+
+@media (min-width:56.125em) {
+	html .ss_samsung.home #recommennd-items .module-heading .heading-text,
+	html .ss_samsung.category #recommennd-items .module-heading .heading-text{font-size:40px !important}
+}
+
+.ss_samsung.b2c #recommennd-items .module-heading .heading-text{font-family: 'pslKittithadaBold', 'arial', 'tahoma', 'SamsungIFBd', 'sans-serif'; font-weight:bold;}
+
+/*  b2c */
+html .ss_samsung.b2c #recommennd-items .module-heading .heading-text{font-size:33px !important;line-height:.8}
+@media (min-width:48em) {
+	html .ss_samsung.b2c #recommennd-items .module-heading .heading-text{ font-size:40px !important;}
+}
+
+html .ss_samsung.pdp_wow #recommennd-items .module-heading .heading-text{font-size:33px !important;line-height:.8}
+@media (min-width:48em) {
+	html .ss_samsung.pdp_wow #recommennd-items .module-heading .heading-text{ font-size:40px !important; }
+}
+
+@media (min-width:56.125em) {
+	html .ss_samsung.home #recommennd-items .module-heading .heading-text.heading-text,
+	html .ss_samsung.category #recommennd-items .module-heading .heading-text.heading-text{font-size:40px !important}
+}
+
+html .ss_samsung.home #recommennd-items #rec-similar .similar-item .similar-item-link .similar-item-content .name,
+html .ss_samsung.category #recommennd-items #rec-similar .similar-item .similar-item-link .similar-item-content .name{font-size:14px}
+
+@media (min-width: 38.75em){
+	html .ss_samsung.home #recommennd-items #rec-similar .similar-item .similar-item-link .similar-item-content .name,
+	html .ss_samsung.category #recommennd-items #rec-similar .similar-item .similar-item-link .similar-item-content .name{font-size:16px}
+}
+@media (min-width:48em) {
+	html .ss_samsung.home #recommennd-items #rec-similar .similar-item .similar-item-link .similar-item-content .name,
+	html .ss_samsung.category #recommennd-items #rec-similar .similar-item .similar-item-link .similar-item-content .name{font-family: 'pslKittithadaBold', 'arial', 'tahoma', 'SamsungIFBd', 'sans-serif';font-size:25px !important;letter-spacing:0 !important;}
+}
+@media (min-width:56.125em) {
+	html .ss_samsung.home #recommennd-items #rec-similar .similar-item .similar-item-link .similar-item-content .name,
+	html .ss_samsung.category #recommennd-items #rec-similar .similar-item .similar-item-link .similar-item-content .name{font-size:28px !important;}
+}
+@media (min-width:64em) {
+	html .ss_samsung.home #recommennd-items #rec-similar .similar-item .similar-item-link .similar-item-content .name,
+	html .ss_samsung.category #recommennd-items #rec-similar .similar-item .similar-item-link .similar-item-content .name{font-size:23px !important;}
+}
+@media (min-width:64em) {
+	html .ss_samsung.home #recommennd-items #rec-similar .similar-item .similar-item-link .similar-item-content .name,
+	html .ss_samsung.category #recommennd-items #rec-similar .similar-item .similar-item-link .similar-item-content .name{font-size:23px !important;}
+}
+@media (min-width:100em) {
+	html .ss_samsung.home #recommennd-items #rec-similar .similar-item .similar-item-link .similar-item-content .name,
+	html .ss_samsung.category #recommennd-items #rec-similar .similar-item .similar-item-link .similar-item-content .name{font-size:25px !important;}
+}
+html .ss_samsung.pdp_wow #recommennd-items #rec-similar .similar-item .similar-item-link .similar-item-content .name {font-family: 'pslKittithadaBold', 'arial', 'tahoma', 'SamsungIFBd', 'sans-serif';font-size:20px !important;line-height: .8;}
+
+.ss_samsung #recommennd-items #rec-similar .similar-item .name {letter-spacing:0 !important;}

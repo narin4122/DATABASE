@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+.selectScroll{font-family: 'arial', 'tahoma', 'sans-serif' !important;}
+@media (min-width:50.063em){
+.selectScroll{font-family: 'arial', 'tahoma', 'sans-serif' !important;}
+}
+
+/*////////////////////////////////////////////////////////////////       
+b2c font   2014-08-27 by naomi     
+font-family: 'SamsungIFRg'; --> system font
+font-family: 'SamsungIFBd'; --> system font; font-weight:bold;
+//////////////////////////////////////////////////////////////// */
+.b2c .ylayer-locator-container.ylayer-detail{font-family: 'arial', 'tahoma', 'sans-serif' !important;}
+.b2c .selectScroll{font-family: 'arial', 'tahoma', 'sans-serif' !important;}
+@media (min-width:50.063em) {
+	.b2c .selectScroll{font-family: 'arial', 'tahoma', 'sans-serif' !important;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

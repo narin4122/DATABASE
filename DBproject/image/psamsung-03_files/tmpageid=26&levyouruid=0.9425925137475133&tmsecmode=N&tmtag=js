@@ -1,0 +1,68 @@
+var tmPiggyBack = {"pfguid":"7814497337377970811:172113486","tmclickcampaignids":"","tmcampaignid":"0","tmclickref":"","tmcampaignids":"","tmip":"202.28.250.86","tmvisit":1,"tmplacementrefs":"","tmviewthrough":"0","tmclickrefs":"","tmlogactivity":0,"tmviewcampaignids":"","tmdnt":0,"tmevents":[],"tmconversion":0,"tmplacementref":"","tmclientname":"samsunguk"}; (function(){TMAN.getContainerByName('samsunguk').addTags( new TMAN.Tag(
+  "(function(){\n" + 
+  "	//can be added or removed/renamed as needed\n" + 
+  "	var custom_var1 = tmPiggyBack.pfguid;\n" + 
+  "	\n" + 
+  "	//URL variable names should change with above names. \n" + 
+  "	//For additional parameters, keep the variable + 'string' format\n" + 
+  "        var host = ('https:' == document.location.protocol ? 'https://': 'http://');\n" + 
+  "	var src = host + 'tapestry.tapad.com/tapestry/1?ta_partner_id=1210&ta_partner_did=' + custom_var1 + '&ta_format=png';\n" + 
+  "\n" + 
+  "	TMAN.util.appendImage(src);\n" + 
+  "	\n" + 
+  "})();", 
+{
+  "position":TMAN.position.TOP_BODY,
+  "async":true,
+  "movable":true
+}));
+window.tmImmediate=1;})();
+(function(){TMAN.getContainerByName('samsunguk').addTags( new TMAN.Tag(
+  "(function(){\n" + 
+  " var host = ('https:' == document.location.protocol ? 'https://': 'http://');\n" + 
+  "	var src = host + 'googleads.g.doubleclick.net/pagead/viewthroughconversion/983059188/?value=0&amp;guid=ON&amp;script=0';\n" + 
+  "\n" + 
+  "	TMAN.util.appendImage(src);\n" + 
+  "	\n" + 
+  "})();", 
+{
+  "position":TMAN.position.TOP_HEAD,
+  "async":true,
+  "movable":true
+}));
+window.tmImmediate=1;})();
+(function(){TMAN.getContainerByName('samsunguk').addTags( new TMAN.Tag(
+  "( function () {\n" + 
+  "  console.log ('test') ;\n" + 
+  "  \n" + 
+  "})()", 
+{
+  "position":TMAN.position.CUSTOM_1,
+  "async":true,
+  "movable":false
+}));
+window.tmImmediate=1;})();
+(function(){TMAN.getContainerByName('samsunguk').addTags( new TMAN.Tag(
+  "( function () {\n" + 
+  "  console.log ('G_S6_S6E_pre_order') ;\n" + 
+  "  \n" + 
+  "})()", 
+{
+  "position":TMAN.position.G_S6_S6E_pre_order,
+  "async":true,
+  "movable":false
+}));
+window.tmImmediate=1;})();
+(function(){TMAN.getContainerByName('samsunguk').addTags( new TMAN.Tag(
+  "( function () {\n" + 
+  "  console.log ('G_S6_S6E_other_retailers') ;\n" + 
+  "  \n" + 
+  "})()", 
+{
+  "position":TMAN.position.G_S6_S6E_other_retailers,
+  "async":true,
+  "movable":false
+}));
+window.tmImmediate=1;})();
+tmDisableIframe = 1;
+if (window.LEV_TMIFCB) LEV_TMIFCB();

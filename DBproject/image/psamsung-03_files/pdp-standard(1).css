@@ -1,0 +1,154 @@
+@charset "utf-8";
+
+/* BEGIN:import module */
+@import url("/th/next/css/modules/similar-items.css");
+@import url("/th/next/css/modules/recommend-items.css");
+@import url("/th/next/css/modules/need-support.css");
+@import url("/th/next/css/modules/jump.css");
+@import url("/th/next/css/modules/tech-spec.css");
+@import url("/th/next/css/modules/reviews.css");
+@import url("/th/next/css/modules/share-popover.css");
+@import url("/th/next/css/modules/hero.css");
+@import url("/th/next/css/modules/compare.css");
+@import url("/th/next/css/modules/pdp-visual-standard.css");
+/* END:import module */
+
+/* 'pslKittithadaBold',  */
+.ss_samsung.pdp_standard{font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif';}
+.ss_samsung .module-heading .heading-text{font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif'; font-weight:bold;}
+.ss_samsung .ylayerBox .module-heading .heading-text{font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif';}
+.ss_samsung .ylayerBox .module-heading.first .heading-text{font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif'; font-weight:bold;}
+.ss_samsung .offers-bar-module ul li{  font-family: 'pslKittithadaBold', 'arial', 'tahoma', 'SamsungIFBd', 'sans-serif'; font-size:23px }
+.ss_samsung.pdp_standard #content .gallery-module .controls .color-picker{font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif'; font-weight:bold;}
+.ss_samsung.pdp_standard #content .instore-map .map-floor-toggle .toggle-button{font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif'; font-weight:bold;}
+.ss_samsung.pdp_standard #content .question-module .option a span{font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif'; font-weight:bold;}
+.ss_samsung.pdp_standard .twitter-module .module-heading .sub-heading-text{font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif'; font-weight:bold;}
+.ss_samsung.pdp_standard .twitter-module .wrap .twitt .text .tag{font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif'; font-weight:bold;}
+.ss_samsung.pdp_standard .twitter-module .wrap .twitt .info{font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif'; font-weight:bold;}
+.y-linkListBox{font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif'; font-weight:bold;}
+.y-offerbelow{font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif'; font-weight:bold;}
+.y-icon-numberbox .marker-number{font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif';}
+#ratings-popover-container .popover-content,
+#sar-popover-container .popover-content,
+#ratings-popover-container .popover-content,
+#terms-popover-container .popover-content,
+#review-popover-container .popover-content,
+#ratings-submit-popover-container .popover-content{ font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif';}
+.ss_samsung.pdp_standard #content .the-offer .badge h5{ font-family: 'pslKittithadaBold', 'arial', 'tahoma', 'SamsungIFBd', 'sans-serif'; font-size:24px; }
+.ss_samsung.pdp_standard #content .the-offer .badge p:first-child {font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif'; font-weight:bold;} 
+.ss_samsung.pdp_standard #content .sampleimages-module .controls .color-picker{font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif';}
+.ss_samsung.pdp_standard #content #app-store.appstore .tab_btn li{font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif'; font-weight:bold;}
+.ss_samsung.pdp_standard #content #app-store.appstore .applist li a .app-price{font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif'; font-weight:bold;}
+.ss_samsung.pdp_standard #content #product-QnA.productQnA .inner-x .module-heading .ask-btn{font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif'; font-weight:bold;}
+.ss_samsung.pdp_standard #content #product-QnA.productQnA .qna-wrapper .qna-list li .answers .answer-btn .btn-edit{font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif'; font-weight:bold;}
+.ss_samsung.pdp_standard #content #product-QnA.productQnA .qna-wrapper .qna-list li .answers .answer-btn .btn-del{font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif'; font-weight:bold;}
+.ss_samsung.pdp_standard #content #product-QnA.productQnA .qna-wrapper .qna-list li .qna-option .num{font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif'; font-weight:bold;}
+.ss_samsung.pdp_standard #content #product-QnA.productQnA .qna-wrapper .qna-list li .qna-option .btn-answer{font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif'; font-weight:bold;}
+.ss_samsung.pdp_standard #content #product-QnA.productQnA .qna-wrapper .qna-list li .qna-option .describe-wrapper .describe-btn .btn-submit{font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif'; font-weight:bold;}
+.ss_samsung.pdp_standard #content #product-QnA.productQnA .qna-wrapper .qna-list li .qna-option .describe-wrapper .describe-btn .btn-cancel{font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif'; font-weight:bold;}
+
+
+/*////////////////////////////////////////////////////////////////       
+b2c font   2014-08-27 by naomi     
+font-family: 'SamsungIFRg'; --> system font
+font-family: 'SamsungIFBd'; --> system font; font-weight:bold;
+//////////////////////////////////////////////////////////////// */
+
+/* ////////////////////////////////////////////// */
+/* BEGIN: b2c font reset */
+.ss_samsung.b2c.pdp_standard{ font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif'; }
+.ss_samsung.b2c.pdp_standard #content .features-module .feature .desc { font-size:18px; }
+@media (min-width:48em) {
+	.ss_samsung.b2c.pdp_standard #content .features-module .feature .title{font-size:33px;width:100%}
+	.ss_samsung.b2c.pdp_standard #content .features-module .feature .desc{font-size:20px;width:100%}
+}
+.b2c .tech-spec-module .btn-more span:first-child { font-family: 'pslKittithadaBold', 'arial', 'tahoma', 'SamsungIFBd', 'sans-serif'; font-size: 29px !important;}
+.ss_samsung.b2c .module-heading .heading-text{ font-family: 'pslKittithadaBold', 'arial', 'tahoma', 'SamsungIFBd', 'sans-serif'; }
+.ss_samsung.b2c .module-heading,
+.ss_samsung.pdp_wow .module-heading{ font-family: 'pslKittithadaBold', 'arial', 'tahoma', 'SamsungIFBd', 'sans-serif' !important; font-size:33px;line-height:1 !important;}
+@media (min-width:48em) {
+	.ss_samsung.b2c .module-heading,
+	.ss_samsung.pdp_wow .module-heading{font-size:40px}
+}
+.ss_samsung.b2c .ylayerBox .module-heading .heading-text{font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif';}
+.ss_samsung.b2c .ylayerBox .module-heading.first .heading-text{font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif'; font-weight:bold;}
+.ss_samsung.b2c .offers-bar-module .title{ font-family: 'pslKittithadaBold', 'arial', 'tahoma', 'SamsungIFBd', 'sans-serif'; font-size:30px; line-height:.8;}
+@media (min-width:48em){.ss_samsung.b2c .offers-bar-module .title{ font-family: 'pslKittithadaBold', 'arial', 'tahoma', 'SamsungIFBd', 'sans-serif'; font-size:30px; line-height:.8;   }}
+.ss_samsung.b2c .offers-bar-module ul li{ font-family: 'pslKittithadaBold', 'arial', 'tahoma', 'SamsungIFBd', 'sans-serif'; font-size:23px;}
+.ss_samsung.b2c .offers-bar-module ul li.special-gift .title{  font-family: 'pslKittithadaBold', 'arial', 'tahoma', 'SamsungIFBd', 'sans-serif'; font-size:23px; }
+.ss_samsung.b2c.pdp_standard #content .gallery-module .controls .color-picker{font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif'; font-weight:bold;}
+.ss_samsung.b2c.pdp_standard #content .instore-map .map-floor-toggle .toggle-button{font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif'; font-weight:bold;}
+.ss_samsung.b2c.pdp_standard #content .question-module .option a span{font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif'; font-weight:bold;}
+.ss_samsung.b2c.pdp_standard .twitter-module .module-heading .sub-heading-text{font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif'; font-weight:bold;}
+.ss_samsung.b2c.pdp_standard .twitter-module .wrap .twitt .text .tag{font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif'; font-weight:bold;}
+.ss_samsung.b2c.pdp_standard .twitter-module .wrap .twitt .info{font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif'; font-weight:bold;}
+.b2c .y-linkListBox{font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif'; font-weight:bold;}
+.b2c .y-offerbelow{font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif'; font-weight:bold;}
+.b2c .y-icon-numberbox .marker-number{font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif';}
+.b2c #ratings-popover-container .popover-content,
+.b2c #sar-popover-container .popover-content,
+.b2c #ratings-popover-container .popover-content,
+.b2c #terms-popover-container .popover-content,
+.b2c #review-popover-container .popover-content,
+.b2c #ratings-submit-popover-container .popover-content{font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif';}
+.ss_samsung.b2c.pdp_standard #content .the-offer .badge h5{font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif'; font-weight:bold;}
+.ss_samsung.b2c.pdp_standard #content .the-offer .badge p:first-child{font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif'; font-weight:bold;}
+.b2c .ss_samsung.pdp_standard #content .sampleimages-module .controls .color-picker{font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif'; font-weight:bold;}
+.ss_samsung.b2c.pdp_standard #content #app-store.appstore .tab_btn li{font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif'; font-weight:bold;}
+.ss_samsung.b2c.pdp_standard #content #app-store.appstore .applist li a .app-price{font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif'; font-weight:bold;}
+.ss_samsung.b2c.pdp_standard #content #product-QnA.productQnA .inner-x .module-heading .ask-btn{font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif'; font-weight:bold;}
+.ss_samsung.b2c.pdp_standard #content #product-QnA.productQnA .qna-wrapper .qna-list li .answers .answer-btn .btn-edit{font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif'; font-weight:bold;}
+.ss_samsung.b2c.pdp_standard #content #product-QnA.productQnA .qna-wrapper .qna-list li .answers .answer-btn .btn-del{font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif'; font-weight:bold;}
+.ss_samsung.b2c.pdp_standard #content #product-QnA.productQnA .qna-wrapper .qna-list li .qna-option .num{font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif'; font-weight:bold;}
+.ss_samsung.b2c.pdp_standard #content #product-QnA.productQnA .qna-wrapper .qna-list li .qna-option .btn-answer{font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif'; font-weight:bold;}
+.ss_samsung.b2c.pdp_standard #content #product-QnA.productQnA .qna-wrapper .qna-list li .qna-option .describe-wrapper .describe-btn .btn-submit{font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif'; font-weight:bold;}
+.ss_samsung.b2c.pdp_standard #content #product-QnA.productQnA .qna-wrapper .qna-list li .qna-option .describe-wrapper .describe-btn .btn-cancel{font-family: 'arial', 'tahoma''SamsungIFBd', 'sans-serif'; font-weight:bold;}
+
+.ss_samsung.b2c.pdp_standard #content .features-module .feature .title{font-family: 'pslKittithadaBold', 'arial', 'tahoma', 'SamsungIFBd', 'sans-serif'; font-size:25px; }
+.ss_samsung.b2c.pdp_standard #content .features-module .feature .desc { font-family: 'pslKittithadaBold', 'arial', 'tahoma', 'SamsungIFBd', 'sans-serif'; }
+@media (min-width:48em) {
+	.ss_samsung.b2c.pdp_standard #content .features-module .feature .title{font-size:33px;}
+}
+@media (min-width:80em) {
+	.ss_samsung.b2c.pdp_standard #content .features-module .feature .desc{ font-family: 'pslKittithadaBold', 'arial', 'tahoma', 'SamsungIFBd', 'sans-serif';font-size:23px;line-height: 1;}
+}
+
+.ss_samsung .module-heading{font-size:30px;}
+.ss_samsung .module-heading .heading-text{letter-spacing:0;font-family: 'pslKittithadaBold', 'arial', 'tahoma', 'SamsungIFBd', 'sans-serif' !important;line-height:1;}
+@media (min-width:48.0625em) {.ss_samsung .module-heading{font-size:45px}}
+
+.shop-popover-title{ font-family: 'pslKittithadaBold', 'arial', 'tahoma', 'SamsungIFBd', 'sans-serif'; font-size:24px}
+@media (min-width:48em) {.b2c .shop-popover-title{font-size:32px}}
+
+.whereEtc{  font-family: 'pslKittithadaBold', 'arial', 'tahoma', 'SamsungIFBd', 'sans-serif';  font-size:23px; }
+
+
+
+/* BEGIN:glance-section */ 
+.ss_samsung .glance-section .glance-list li{ font-family: 'pslKittithadaBold', 'arial', 'tahoma', 'SamsungIFBd', 'sans-serif'; font-size:20px;  line-height:0.8; }
+
+@media(min-width:48em) { 
+.ss_samsung .glance-section .glance-list li{  font-size:23px !important; }
+}
+
+
+.ss_samsung.pdp_standard #content .the-offer .badge p{ font-family: 'pslKittithadaBold', 'arial', 'tahoma', 'SamsungIFBd', 'sans-serif'; font-size:18px; }
+.ss_samsung .offers-bar-module .title{ font-family: 'pslKittithadaBold', 'arial', 'tahoma', 'SamsungIFBd', 'sans-serif'; font-size:40px}
+
+.view-all01{ font-family: 'pslKittithadaBold', 'arial', 'tahoma', 'SamsungIFBd', 'sans-serif'; font-size:25px}
+
+@media (min-width:48em) {.footer-bread-crumb a{font-family: 'pslKittithadaBold', 'arial', 'tahoma', 'SamsungIFBd', 'sans-serif'; font-size:20px}}
+
+@media (min-width: 48em) {.ss_samsung #content .accessories-module .wrap .accessory .name{font-family: 'pslKittithadaBold', 'arial', 'tahoma', 'SamsungIFBd', 'sans-serif'; font-size:20px}}
+@media (min-width:80em) {.ss_samsung #content .accessories-module .wrap .accessory .name{font-size:23px;}}
+
+@media (min-width:48em) { .ss_samsung.b2c .need-support-module .download-item-group .btn-more span{font-family: 'pslKittithadaBold', 'arial', 'tahoma', 'SamsungIFBd', 'sans-serif'; font-size:20px}}
+
+.b2c .summary-info-section .summary-info .tit{font-family: 'pslKittithadaBold', 'arial', 'tahoma', 'SamsungIFBd', 'sans-serif'; font-size:25px}
+
+.ss_samsung .need-support-module .download-item .manual-link{font-family: 'pslKittithadaBold', 'arial', 'tahoma', 'SamsungIFBd', 'sans-serif' !important; font-size:23px}
+.ss_samsung .need-support-module .download-item-group .toggler>a{ font-family: 'pslKittithadaBold', 'arial', 'tahoma', 'SamsungIFBd', 'sans-serif';  font-size:26px;}
+.ss_samsung .need-support-module .download-item-group .btn-more span{ font-family: 'pslKittithadaBold', 'arial', 'tahoma', 'SamsungIFBd', 'sans-serif';  font-size:25px;}
+
+.go-support-section, .viewer-download{font-family: 'pslKittithadaBold', 'arial', 'tahoma', 'SamsungIFBd', 'sans-serif'; font-size:20px}
+.go-support-section .icon-link-play, .viewer-download .icon-link-play {font-size:14px;}

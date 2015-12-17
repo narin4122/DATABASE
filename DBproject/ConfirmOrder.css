@@ -1,0 +1,240 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {  
+  
+    font-family: 'GOODTIME';  /* ใส่ชื่อ Font */  
+    /*src: url('C:\Users\narumonk\Desktop\DBproject\GOODTIME.ttf');  
+  /* ใส่ URL ที่เก็บไฟล์ Font ที่เป็นนามสกุล .EOT (หลักการเหมือนแทรกรูปภาพธรรมดาๆ ครับ) */  
+    src: local('myfont'), url('GOODTIME.ttf') format('truetype');  
+  /* ใส่ URL ที่เก็บไฟล์ Font ที่เป็นนามสกุล .TTF (หลักการเหมือนแทรกรูปภาพธรรมดาๆ ครับ) */  
+     
+	
+	font-weight: normal;  
+    font-style: normal; 
+  
+}  
+@font-face {  
+  
+    font-family:'Quarca Cond Book';  /* ใส่ชื่อ Font */  
+    /*src: url('C:\Users\narumonk\Desktop\DBproject\GOODTIME.ttf');  
+  /* ใส่ URL ที่เก็บไฟล์ Font ที่เป็นนามสกุล .EOT (หลักการเหมือนแทรกรูปภาพธรรมดาๆ ครับ) */  
+    src: local('myfont'), url('QuarcaCondBook.otf') format('truetype');  
+  /* ใส่ URL ที่เก็บไฟล์ Font ที่เป็นนามสกุล .TTF (หลักการเหมือนแทรกรูปภาพธรรมดาๆ ครับ) */  
+     
+	
+	font-weight: normal;  
+    font-style: normal; 
+  
+}  
+.myfont1{
+	
+	font-family:'GOODTIME';
+	
+	}
+
+.myfont2{
+	
+	font-family:"Quarca Cond Book";
+	
+	}
+<style type="text/css">
+.head1 {
+	background-color: #0F3;
+}
+.test {
+	background-color: #CCC;
+	background-position: center top;
+	height: 1500px;
+	width: 1000px;
+	text-align: center;
+	position: absolute;
+	left: 171px;
+	top: 5px;
+}
+
+.test2{
+	background-color:#90F;
+	
+	height: 200px;
+	width: 1000px;
+	text-align: center;
+	left: 0px;
+	position:absolute;
+	}
+.CDetail{
+	background-color:#FFFFFF;
+	height: 50px;
+	width: 200px;
+	text-align:left;
+	left: 90px;
+	top: 300px;
+	position:absolute;
+	}
+.CSupDetail{
+	background-color:#FFFFFF;
+	height: 350px;
+	width: 870px;
+	text-align: center;
+	left: 150px;
+	top: 370px;
+	position:absolute;
+	}
+.address{
+	background-color:#FFFFFF;
+	height: 35px;
+	width: 150px;
+	text-align:right;
+	left: 60px;
+	top: 10px;
+	position:absolute;
+	}
+.Iaddress{
+	background-color:#FFFFFF;
+	height: 80px;
+	width: 150px;
+	text-align:right;
+	left: 350px;
+	top: 10px;
+	position:absolute;
+	}
+.Tel{
+	background-color:#FFFFFF;
+	height: 35px;
+	width: 150px;
+	text-align: right;
+	left: 60px;
+	top: 110px;
+	position:absolute;
+	}
+.ITel{
+	background-color:#FFFFFF;
+	height: 35px;
+	width: 150px;
+	text-align: right;
+	left: 350px;
+	top: 110px;
+	position:absolute;
+	}
+.email{
+	background-color:#FFFFFF;
+	height: 35px;
+	width: 150px;
+	text-align: right;
+	left: 60px;
+	top: 170px;
+	position:absolute;
+	}
+.Iemail{
+	background-color:#FFFFFF;
+	height: 35px;
+	width: 150px;
+	text-align: right;
+	left: 350px;
+	top: 170px;
+	position:absolute;
+	}	
+.send{
+	background-color:#FFFFFF;
+	height: 35px;
+	width: 150px;
+	text-align:right;
+	left: 60px;
+	top: 230px;
+	position:absolute;
+	}	
+.Isend{
+	background-color:#FFFFFF;
+	height: 35px;
+	width: 150px;
+	text-align:left;
+	left: 350px;
+	top: 230px;
+	position:absolute;
+	}	
+.submit{
+	background-color:#FFFFFF;
+	height:30 px;
+	width:100px ;
+	left:580px;
+	top:305px ;
+	position:absolute;
+	
+	}
+.COrder{
+	background-color:#FFFFFF;
+	height: 50px;
+	width: 200px;
+	text-align: left;
+	left: 90px;
+	top: 720px;
+	position:absolute;
+	}
+.CDetailOrder{
+	background-color:transparent;
+	height: 200px;
+	width: 700px;
+	text-align: center;
+	left: 150px;
+	top: 820px;
+	position:absolute;
+	}
+.OrderPic{
+	background-color:#FFF;
+	height: 200px;
+	width: 200px;
+	text-align: center;
+	left: 20px;
+	
+	position:absolute;
+	}
+.OrderName{
+	background-color:#F2F2F2;
+	height: 40px;
+	width: 200px;
+	text-align: center;
+	left: 280px;
+	top: 20px;
+	position:absolute;
+	}
+.OrderDetail{
+	background-color:transparent;
+	height: 100px;
+	width: 200px;
+	text-align: center;
+	left: 280px;
+	top: 80px;
+	position:absolute;
+	}
+.OrderPrice{
+	background-color:#F2F2F2;
+	height: 40px;
+	width: 150px;
+	text-align: center;
+	left: 501px;
+	top: 20px;
+	position: absolute;
+	}
+
+.SUM{
+	background-color:transparent;
+	height: 70px;
+	width: 150px;
+	text-align: center;
+	left: 700px;
+	top: 1070px;
+	position:absolute;
+	}
+.Confirm{
+	background-color:#FFFFFF;
+	height: 70px;
+	width: 200px;
+	text-align: center;
+	left: 400px;
+	top: 300px;
+	position:absolute;
+	}
+
+
+
+
+</style>

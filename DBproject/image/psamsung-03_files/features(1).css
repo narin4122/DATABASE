@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+.mgFeature{font-family: 'arial', 'tahoma', 'sans-serif' !important;}
+
+/*////////////////////////////////////////////////////////////////       
+b2c font   2014-08-27 by naomi     
+font-family: 'SamsungIFRg'; --> system font
+font-family: 'SamsungIFBd'; --> system font; font-weight:bold;
+//////////////////////////////////////////////////////////////// */
+
+/* b2c font reset */
+/* 공통 */
+.b2c .mgFeature{font-family: 'arial', 'tahoma', 'sans-serif' !important;}
+
+.keynote_row_group .keynote_small_wide h2.title{ font-family: 'pslKittithadaBold', 'arial', 'tahoma', 'SamsungIFBd', 'sans-serif' !important;  font-size:30px; }
+.keynote_row_group .keynote_small_wide .description_pci{ font-family: 'pslKittithadaBold', 'arial', 'tahoma', 'SamsungIFBd', 'sans-serif' !important; }
+
+
+.b2c .keynote_rbox_small h2.title{ font-size:25px !important; }
+
+@media all and (min-width:1025px) and (max-width:1280px) {
+	.b2c .keynote_rbox_small h2.title{font-size:23px; }
+	} /* 태블릿 가로모드 */
+@media all and (min-width:769px) and (max-width:1024px) {
+	.b2c .keynote_rbox_small h2.title{font-size:23px; }
+	} /* 태블릿 세로모드 */
+@media all and (min-width:481px) and (max-width:768px) {
+	.b2c .keynote_rbox_small h2.title{font-size:20px;}
+	} /* 모바일 가로모드 */
+@media all and (max-width:480px) {
+	.b2c .keynote_rbox_small h2.title{font-size:20px; }
+} /* 모바일 세로모드 */
+
+.keynote_large_wide .description_pci,.keynote_large .description_pci,.keynote_large2 .description_pci,.keynote_row_group .description_pci{font-size:23px; font-family: 'pslKittithadaBold', 'arial', 'tahoma', 'SamsungIFBd', 'sans-serif' !important;}
+@media all and (min-width:1025px) and (max-width:1280px) {
+	.keynote_large_wide .description_pci,.keynote_large .description_pci,keynote_large2 .description_pci,.keynote_row_group .description_pci{font-size:22px;}
+}
+@media all and (min-width:769px) and (max-width:1024px) {
+	.keynote_large_wide .description_pci,.keynote_large .description_pci,keynote_large2 .description_pci,.keynote_row_group .description_pci{font-size:20px;}
+}
+@media all and (min-width:481px) and (max-width:768px) {
+	.keynote_large_wide .description_pci,.keynote_large .description_pci,keynote_large2 .description_pci,.keynote_row_group .description_pci{ font-size:20px;}
+}
+
+.mgFeature .keynote_row_group { font-family: 'pslKittithadaBold', 'arial', 'tahoma', 'SamsungIFBd', 'sans-serif' !important; font-size:20px; }

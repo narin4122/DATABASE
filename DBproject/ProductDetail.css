@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {  
+  
+    font-family: 'GOODTIME';  /* ใส่ชื่อ Font */  
+    /*src: url('C:\Users\narumonk\Desktop\DBproject\GOODTIME.ttf');  
+  /* ใส่ URL ที่เก็บไฟล์ Font ที่เป็นนามสกุล .EOT (หลักการเหมือนแทรกรูปภาพธรรมดาๆ ครับ) */  
+    src: local('myfont'), url('GOODTIME.ttf') format('truetype');  
+  /* ใส่ URL ที่เก็บไฟล์ Font ที่เป็นนามสกุล .TTF (หลักการเหมือนแทรกรูปภาพธรรมดาๆ ครับ) */  
+     
+	
+	font-weight: normal;  
+    font-style: normal; 
+  
+}  
+@font-face {  
+  
+    font-family:'Quarca Cond Book';  /* ใส่ชื่อ Font */  
+    /*src: url('C:\Users\narumonk\Desktop\DBproject\GOODTIME.ttf');  
+  /* ใส่ URL ที่เก็บไฟล์ Font ที่เป็นนามสกุล .EOT (หลักการเหมือนแทรกรูปภาพธรรมดาๆ ครับ) */  
+    src: local('myfont'), url('QuarcaCondBook.otf') format('truetype');  
+  /* ใส่ URL ที่เก็บไฟล์ Font ที่เป็นนามสกุล .TTF (หลักการเหมือนแทรกรูปภาพธรรมดาๆ ครับ) */  
+     
+	
+	font-weight: normal;  
+    font-style: normal; 
+  
+}  
+.myfont1{
+	
+	font-family:'GOODTIME';
+	
+	}
+
+.myfont2{
+	
+	font-family:"Quarca Cond Book";
+	
+	}
+<style type="text/css">
+.head1 {
+	background-color: #0F3;
+}
+.test {
+	background-color: #CCC;
+	background-position: center top;
+	height: 1500px;
+	width: 1000px;
+	text-align: center;
+	position: absolute;
+	left: 171px;
+	top: 5px;
+}
+
+.test2{
+	background-color:#90F;
+	
+	height: 200px;
+	width: 1000px;
+	text-align: center;
+	left: 0px;
+	position:absolute;
+	}
+.Pname{
+	background-color: #FFFFFFs;
+	height: 50px;
+	width: 400px;
+	text-align: center;
+	left: 90px;
+	top: 290px;
+	position:absolute;
+	}
+.Price{
+	background-color: #FFFFFF;
+	height: 100px;
+	width: 250px;
+	text-align: center;
+	left: 625px;
+	top: 290px;
+	position:absolute;
+	}
+.Ppicture{
+	background-color: #F4F4F4;
+	height: 350px;
+	width: 350px;
+	text-align: center;
+	left: 110px;
+	top: 430px;
+	border-radius: 1;
+	position: absolute;
+	-webkit-box-shadow: 0px 2px 5px 1px;
+	box-shadow: 0px 2px 5px 1px;
+	}
+.PDetail{
+	background-color: #FFFFFF;
+	height: 250px;
+	width: 300px;
+	text-align: center;
+	left: 600px;
+	top: 430px;
+	position:absolute;
+	}
+.PBuy{
+	background-color: #FFFFFF;
+	height: 40px;
+	width: 100px;
+	text-align: center;
+	left: 750px;
+	top: 720px;
+	position: absolute;
+	}
+.PComment{
+	background-color: #FFFFFF;
+	height: 180px;
+	width: 400px;
+	text-align: center;
+	left: 300px;
+	top: 930px;
+	position:absolute;
+	}
+.Comment{
+	background-color: #FFFFFF;
+	height: 50px;
+	width: 150px;
+	text-align: left;
+	left: 300px;
+	top: 880px;
+	position:absolute;
+	}	
+</style>

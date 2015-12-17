@@ -1,0 +1,87 @@
+body { background-color: #F6F6F6; }
+/*#content { text-align:center;}*/
+a { text-decoration: none; color: #0071bf; }
+a:hover { text-decoration: none; color: #0071bf; }
+
+.galaxys6-2015{position:relative; font-family: "SamsungIFRg",Arial,sans-serif; text-align:center; }
+	
+/* section-01*/
+.galaxys6-2015 .section-01{ position:relative; padding: 50px 0 200px 0; background-color: #F6F6F6;}
+.galaxys6-2015 .section-01 .spec-icon{clear:both; width:100%; overflow:hidden;}
+.galaxys6-2015 .section-01 .spec-icon li{display: block; text-align:center; float:left; width:25%;}
+
+.galaxys6-2015 .section-01 .spec-icon div{display: block; text-align:center; float:left; width:24.8%; box-sizing:border-box;}
+.galaxys6-2015 .section-01 .spec-icon .btn-01 { border-right: 0px solid #dedede; }
+.galaxys6-2015 .section-01 .spec-icon .btn-02 { border-right: 0px solid #dedede; }
+.galaxys6-2015 .section-01 .spec-icon .btn-03 { border-right: 0px solid #dedede; }
+
+.galaxys6-2015 .section-01 .spec-icon .spec_title{position: absolute; text-align:left; font-family: "SamsungIFBd",Arial,sans-serif; font-size: 1.175rem; padding: 90px 0 0 5%; color: #000; }
+
+
+.galaxys6-2015 .section-01 .spec-icon .spec_desc {position: absolute; text-align:left; font-size: 0.8rem; padding: 130px 0 0 1.2%; color: #000; border-right: 1px solid #dedede;}
+.galaxys6-2015 .section-01 .spec-icon .spec_desc p { padding: 0 10% 0 15%; }
+.galaxys6-2015 .section-01 .spec-icon .vod_thumb img { padding-right: 35%; }
+
+.galaxys6-2015 .section-00 {position:relative;}
+.galaxys6-2015 .section-00 .inner-box{position:absolute; padding:0; top:7%; left:4%; text-align:left; z-index:6; width:90%;}
+.galaxys6-2015 .section-00 .inner-box h2{font-size:4.500em; color:#000;}
+.galaxys6-2015 .section-00 .inner-box .desc-01{font-size:1.3em; color:#000; line-height:1.40em; padding-top:7%; width:490px; }
+.galaxys6-2015 .section-00 .inner-box .desc-02{font-size:1.3em; color:#60daff; line-height:1.50em; padding-top:1%; width:400px; }
+
+
+@media (max-width: 768px){
+	.galaxys6-2015 .section-01{ position:relative; padding: 50px 0 50px 0;}
+	.galaxys6-2015 .section-01 .spec-icon div{display: block; text-align:center; float:left; width:49.8%;}
+
+	.galaxys6-2015 .section-01 .spec-icon .btn-01 { border-right: 1px solid #dedede; }
+	.galaxys6-2015 .section-01 .spec-icon .btn-02 { border-right: 0px solid #dedede; }
+	.galaxys6-2015 .section-01 .spec-icon .btn-03 { border-right: 1px solid #dedede; border-top: 1px solid #dedede; padding-top: 10%; }
+	.galaxys6-2015 .section-01 .spec-icon .btn-04 { border-top: 1px solid #dedede; padding-top: 10%; }
+
+	.galaxys6-2015 .section-01 .spec-icon .spec_title{position: absolute; text-align:center; font-size: 1.175rem; padding: 13% 0 0 0; color: #000;}
+	.galaxys6-2015 .section-01 .spec-icon .spec_desc{position: absolute; text-align:center; font-size: 0.8rem; padding: 18% 0 0 0; color: #000;}
+
+	.galaxys6-2015 .section-01 .spec-icon .vod_thumb img { padding: 0 0 40% 0; }
+
+	.galaxys6-2015 .section-01 .spec-icon .spec_desc { border-right: 0px solid #dedede; }
+
+	.galaxys6-2015 .section-00 .inner-box{position:absolute; padding:0; top:16%; left:6%; text-align:left; z-index:6; width:90%;}
+	.galaxys6-2015 .section-00 .inner-box h2{font-size:3.300em; color:#000;}
+	.galaxys6-2015 .section-00 .inner-box .desc-01{font-size:1.3em; color:#000; line-height:1.50em; padding-top:2%; width:90%; }
+	.galaxys6-2015 .section-00 .inner-box .desc-02{font-size:1.6em; color:#60daff; line-height:1.50em; padding-top:2%; width:48%; }
+}
+
+@media (max-width: 570px){
+	.galaxys6-2015 .section-01 .spec-icon .spec_title{position: absolute; text-align:center; font-size: 1.175rem; padding: 16% 0 0 0; color: #000;}
+	.galaxys6-2015 .section-01 .spec-icon .spec_desc{position: absolute; text-align:center; font-size: 0.8rem; padding: 20% 0 0 0; color: #000;}
+}
+
+@media (max-width: 480px){
+	.galaxys6-2015 .section-00 .inner-box{position:absolute; padding:0; top:14%; left:6%; text-align:left; z-index:6; width:90%;}
+	.galaxys6-2015 .section-00 .inner-box h2 {font-size:1.800em; color:#000;}
+	.galaxys6-2015 .section-00 .inner-box .desc-01 {font-size:1.0em; color:#000; line-height:1.50em; padding-top:8%; width:90%; }
+	.galaxys6-2015 .section-00 .inner-box .desc-02 {font-size:1.3em; color:#60daff; line-height:1.30em; padding-top:2%; width:65%; }
+
+	.galaxys6-2015 .section-01 .spec-icon div{display: block; text-align:center; float:left; width:49.8%; padding-bottom:20%;}
+	.galaxys6-2015 .section-01 .spec-icon .btn-01 .spec_title{position: absolute; text-align:center; font-size: 1.075rem; padding: 25% 0 0 0; color: #000;}
+	.galaxys6-2015 .section-01 .spec-icon .btn-02 .spec_title{position: absolute; text-align:center; font-size: 1.075rem; padding: 25% 0 0 0; color: #000;}
+	.galaxys6-2015 .section-01 .spec-icon .btn-03 .spec_title{position: absolute; text-align:center; font-size: 1.075rem; padding: 25% 0 0 0; color: #000;}
+	.galaxys6-2015 .section-01 .spec-icon .btn-04 .spec_title{position: absolute; text-align:center; font-size: 1.075rem; padding: 25% 0 0 0; color: #000;}
+
+	.galaxys6-2015 .section-01 .spec-icon .spec_desc{position: absolute; text-align:center; font-size: 0.8rem; padding: 35% 0 0 0; color: #000;}
+}
+
+@media (max-width: 320px){
+	.galaxys6-2015 .section-00 .inner-box{position:absolute; padding:0; top:14%; left:6%; text-align:left; z-index:6; width:90%;}
+	.galaxys6-2015 .section-00 .inner-box h2 {font-size:1.600em; color:#000;}
+	.galaxys6-2015 .section-00 .inner-box .desc-01 {font-size:1.0em; color:#000; line-height:1.50em; padding-top:8%; width:90%; }
+	.galaxys6-2015 .section-00 .inner-box .desc-02 {font-size:1.3em; color:#60daff; line-height:1.30em; padding-top:2%; width:65%; }
+
+	.galaxys6-2015 .section-01 .spec-icon div{display: block; text-align:center; float:left; width:49.8%; padding-bottom:20%;}
+	.galaxys6-2015 .section-01 .spec-icon .btn-01 .spec_title{position: absolute; text-align:center; font-size: 1.075rem; padding: 25% 0 0 0; color: #000;}
+	.galaxys6-2015 .section-01 .spec-icon .btn-02 .spec_title{position: absolute; text-align:center; font-size: 1.075rem; padding: 25% 0 0 0; color: #000;}
+	.galaxys6-2015 .section-01 .spec-icon .btn-03 .spec_title{position: absolute; text-align:center; font-size: 1.075rem; padding: 25% 0 0 0; color: #000;}
+	.galaxys6-2015 .section-01 .spec-icon .btn-04 .spec_title{position: absolute; text-align:center; font-size: 1.075rem; padding: 25% 0 0 0; color: #000;}
+
+	.galaxys6-2015 .section-01 .spec-icon .spec_desc{position: absolute; text-align:center; font-size: 0.8rem; padding: 35% 0 0 0; color: #000;}
+}

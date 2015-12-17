@@ -1,0 +1,641 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {  
+  
+    font-family: 'GOODTIME';  /* ใส่ชื่อ Font */  
+    /*src: url('C:\Users\narumonk\Desktop\DBproject\GOODTIME.ttf');  
+  /* ใส่ URL ที่เก็บไฟล์ Font ที่เป็นนามสกุล .EOT (หลักการเหมือนแทรกรูปภาพธรรมดาๆ ครับ) */  
+    src: local('myfont'), url('GOODTIME.ttf') format('truetype');  
+  /* ใส่ URL ที่เก็บไฟล์ Font ที่เป็นนามสกุล .TTF (หลักการเหมือนแทรกรูปภาพธรรมดาๆ ครับ) */  
+     
+	
+	font-weight: normal;  
+    font-style: normal; 
+  
+}  
+@font-face {  
+  
+    font-family:'Quarca Cond Book';  /* ใส่ชื่อ Font */  
+    /*src: url('C:\Users\narumonk\Desktop\DBproject\GOODTIME.ttf');  
+  /* ใส่ URL ที่เก็บไฟล์ Font ที่เป็นนามสกุล .EOT (หลักการเหมือนแทรกรูปภาพธรรมดาๆ ครับ) */  
+    src: local('myfont'), url('QuarcaCondBook.otf') format('truetype');  
+  /* ใส่ URL ที่เก็บไฟล์ Font ที่เป็นนามสกุล .TTF (หลักการเหมือนแทรกรูปภาพธรรมดาๆ ครับ) */  
+     
+	
+	font-weight: normal;  
+    font-style: normal; 
+  
+} 
+@font-face {  
+  
+    font-family:'CSPraJad';  /* ใส่ชื่อ Font */  
+    /*src: url('C:\Users\narumonk\Desktop\DBproject\GOODTIME.ttf');  
+  /* ใส่ URL ที่เก็บไฟล์ Font ที่เป็นนามสกุล .EOT (หลักการเหมือนแทรกรูปภาพธรรมดาๆ ครับ) */  
+    src: local('myfont'), url('CSPraJad.otf') format('truetype');  
+  /* ใส่ URL ที่เก็บไฟล์ Font ที่เป็นนามสกุล .TTF (หลักการเหมือนแทรกรูปภาพธรรมดาๆ ครับ) */  
+     
+	
+	font-weight: normal;  
+    font-style: normal; 
+  
+}   
+.myfont1{
+	
+	font-family:'GOODTIME';
+	
+	}
+
+.myfont2{
+	
+	font-family:"Quarca Cond Book";
+	
+	}
+.myfont3{
+	
+	font-family:"CS PraJad"}
+<style type="text/css">
+.head1 {
+	background-color: #0F3;
+}
+.test {
+	background-color: #FFFFFF;
+	background-position: center top;
+	height: 1500px;
+	width: 1000px;
+	text-align: center;
+	position: absolute;
+	left: 171px;
+	top: 5px;
+}
+.overall{
+	background-color: #000000;
+	hight: 50px;
+	width: 120px;
+	
+	left: 125px;
+	top: 500px;
+	}
+
+.test2{
+	background-color:#FFFFFF;
+	
+	height: 200px;
+	width: 1000px;
+	text-align: center;
+	left: 0px;
+	position:absolute;
+	}
+.ShowList{
+	background-color:#6F0;
+	height: 80px;
+	width: 200px;
+	text-align: center;
+	left: 50px;
+	position:absolute;
+	top: 300px;
+	}
+.SearchBox{
+	background-color: #999;
+	height: 26px;
+	width: 500px;
+	text-align: left;
+	left: 350px;
+	position: absolute;
+	top: 300px;
+	font-size: 24px;
+	}
+.Adname{
+	
+	background-color: #FFFFFF;
+	height: 20px;
+	width: 100px;
+	text-align:end;
+	left: 70px;
+	position: absolute;
+	top: 20px;
+	}
+.Signout{
+	background-color: #FFFFFF;
+	height: 50px;
+	width: 100px;
+	text-align:end;
+	left: 90px;
+	position: absolute;
+	top: 830px;
+	
+	}	
+.tabmenu1{
+	background-color:#FFFFFF;
+	height: 50px;
+	width: 120px;
+	text-align: center;
+	left: 80px;
+	position:absolute;
+	top: 400px;
+	}
+.tabmenu2{
+	background-color:#FFFFFF;
+	height: 50px;
+	width: 120px;
+	text-align: center;
+	left: 80px;
+	position:absolute;
+	top: 460px;
+	}
+.tabmenu3{
+	background-color:#FFFFFF;
+	height: 50px;
+	width: 120px;
+	
+	left: 80px;
+	position:absolute;
+	top: 520px;
+	}
+.tabmenu4{
+	background-color:#FFFFFF;
+	height: 50px;
+	width: 120px;
+	
+	left: 80px;
+	position:absolute;
+	top: 580px;
+	}
+.tabmenu5{
+	background-color:#FFFFFF;
+	height: 50px;
+	width: 120px;
+	text-align: center;
+	left: 80px;
+	position:absolute;
+	top: 640px;
+	}
+	.tabmenu6{
+	background-color:#FFFFFF;
+	height: 50px;
+	width: 120px;
+	text-align: center;
+	left: 80px;
+	position:absolute;
+	top: 700px;
+	}
+	.tabmenu7{
+	background-color:#FFFFFF;
+	height: 50px;
+	width: 120px;
+	text-align: center;
+	left: 80px;
+	position:absolute;
+	top: 760px;
+	}
+.Detail{
+	background-color:#FFFFFF;
+	height: 700px;
+	width: 600px;
+	text-align: center;
+	left: 300px;
+	position:absolute;
+	top: 400px;
+	}
+.Stock{
+	background-color:transparent;
+	height: 700px;
+	width: 300px;
+	text-align: center;
+	left: 0px;
+	position:absolute;
+	top: 0px;
+	}
+.Stock1{
+	background-color:transparent;
+	height: 700px;
+	width: 300px;
+	text-align: center;
+	left: 300px;
+	position:absolute;
+	top: 0px;
+	}
+.stockaddI{
+	background-color:#FFFFFF;
+	height: 30px;
+	width: 100px;
+	text-align: center;
+	left: 30px;
+	position:absolute;
+	top: 30px;
+	}
+.stockIDI{
+	background-color:#FFFFFF;
+	height: 30px;
+	width: 100px;
+	text-align: center;
+	left: 150px;
+	position:absolute;
+	top: 70px;
+	}
+.stockID{
+	background-color:#FFFFFF;
+	height: 30px;
+	width: 100px;
+	text-align: right;
+	left: 20px;
+	position:absolute;
+	top: 70px;
+	}	
+.stocknameI{
+	background-color:#FFFFFF;
+	height: 30px;
+	width: 100px;
+	text-align: center;
+	left: 150px;
+	position:absolute;
+	top: 110px;
+	}
+.stockname{
+	background-color:#FFFFFF;
+	height: 30px;
+	width: 100px;
+	text-align: center;
+	left: 20px;
+	position:absolute;
+	top: 110px;
+	}
+.buydate{
+	background-color:#FFFFFF;
+	height: 30px;
+	width: 100px;
+	text-align: center;
+	left: 20px;
+	position:absolute;
+	top: 150px;
+	}
+.buydateI{
+	background-color:#FFFFFF;
+	height: 30px;
+	width: 100px;
+	text-align: center;
+	left: 150px;
+	position:absolute;
+	top: 150px;
+	}	
+.amoung{
+	background-color:#FFFFFF;
+	height: 30px;
+	width: 100px;
+	text-align: center;
+	left: 20px;
+	position:absolute;
+	top: 190px;
+	}
+.amoungI{
+	background-color:#FFFFFF;
+	height: 30px;
+	width: 100px;
+	text-align: center;
+	left: 150px;
+	position:absolute;
+	top: 190px;
+	}
+.Sumprice{
+	background-color:#FFFFFF;
+	height: 30px;
+	width: 100px;
+	text-align: center;
+	left: 20px;
+	position:absolute;
+	top: 230px;
+	}
+.SumpriceI{
+	background-color:#FFFFFF;
+	height: 30px;
+	width: 100px;
+	text-align: center;
+	left: 150px;
+	position:absolute;
+	top: 230px;
+	}								
+.addID{
+	background-color:transparent;
+	height: 30px;
+	width: 100px;
+	text-align: right;
+	right: 20px;
+	position:absolute;
+	top: 275px;
+	
+	}
+.Addproduct{
+	background-color:transparent;
+	height: 30px;
+	width: 100px;
+	text-align: right;
+	left: 30px;
+	position:absolute;
+	top: 295px;
+	}
+.productID{
+	background-color:transparent;
+	height: 30px;
+	width: 100px;
+	text-align: right;
+	left: 20px;
+	position:absolute;
+	top: 345px;
+	}
+.productIDI{
+	background-color:transparent;
+	height: 30px;
+	width: 100px;
+	text-align: right;
+	left: 150px;
+	position:absolute;
+	top: 345px;
+	}
+.productname{
+	background-color:transparent;
+	height: 30px;
+	width: 100px;
+	text-align: right;
+	left: 20px;
+	position:absolute;
+	top: 385px;
+	}
+.productnameI{
+	background-color:transparent;
+	height: 30px;
+	width: 100px;
+	text-align: right;
+	left: 150px;
+	position:absolute;
+	top: 385px;
+	}
+.producttype{
+	background-color:transparent;
+	height: 30px;
+	width: 100px;
+	text-align: right;
+	left: 20px;
+	position:absolute;
+	top: 425px;
+	}
+.producttypeI{
+	background-color:transparent;
+	height: 30px;
+	width: 100px;
+	text-align: right;
+	left: 150px;
+	position:absolute;
+	top: 425px;
+	}
+.productbrand{
+	background-color:transparent;
+	height: 30px;
+	width: 100px;
+	text-align: right;
+	left: 20px;
+	position:absolute;
+	top: 465px;
+	}
+.productbrandI{
+	background-color:transparent;
+	height: 30px;
+	width: 100px;
+	text-align: left;
+	left: 150px;
+	position:absolute;
+	top: 465px;
+	}
+.productbuy{
+	background-color:transparent;
+	height: 30px;
+	width: 100px;
+	text-align: right;
+	left: 20px;
+	position:absolute;
+	top: 505px;
+	}
+.productbuyI{
+	background-color:transparent;
+	height: 30px;
+	width: 100px;
+	text-align: left;
+	left: 150px;
+	position:absolute;
+	top: 505px;
+	}
+.productsell{
+	background-color:transparent;
+	height: 30px;
+	width: 100px;
+	text-align: right;
+	left: 20px;
+	position:absolute;
+	top: 545px;
+	}
+.productsellI{
+	background-color:transparent;
+	height: 30px;
+	width: 100px;
+	text-align: left;
+	left: 150px;
+	position:absolute;
+	top: 545px;
+	}
+.productpic{
+	background-color:transparent;
+	height: 30px;
+	width: 100px;
+	text-align: right;
+	left: 20px;
+	position:absolute;
+	top: 585px;
+	}
+.productpicI{
+	background-color:transparent;
+	height: 30px;
+	width: 100px;
+	text-align: left;
+	left: 150px;
+	position:absolute;
+	top: 585px;
+	}
+.productdetail{
+	background-color:transparent;
+	height: 30px;
+	width: 100px;
+	text-align: right;
+	left: 20px;
+	position:absolute;
+	top: 625px;
+	}
+.productdetailI{
+	background-color:transparent;
+	height: 30px;
+	width: 10px;
+	text-align: left;
+	left: 150px;
+	position:absolute;
+	top: 625px;
+	}
+.addpID{
+	background-color:transparent;
+	height: 30px;
+	width: 100px;
+	text-align: right;
+	right: 20px;
+	position:absolute;
+	top: 665px;
+	
+	}
+.search{
+	background-color:transparent;
+	height: 30px;
+	width: 100px;
+	text-align: right;
+	left: 200px;
+	position:absolute;
+	top: 30px;
+	
+	}
+	.searchBT{
+		background-color:transparent;
+	height: 30px;
+	width: 100px;
+	text-align: left;
+	left: 360px;
+	position:absolute;
+	top: 30px;
+		
+		}
+	.bar{
+		background-color:#FFFFFF;
+	height: 100px;
+	width: 1000px;
+	text-align: center;
+	
+	position:absolute;
+	top: 300px;
+		
+	}
+	
+	.tab{
+	background-color:#9F0;
+	height: 40px;
+	width: 1000px;
+	text-align: center;
+	left: 0px;
+	top: 200px;
+	position:absolute;
+	}
+	.tabmen{
+	background-color:#FF0004;
+	height: 40px;
+	width: 170px;
+	text-align: center;
+	left: 0px;
+	top: 0px;
+	position:absolute;
+	}
+.tabmen2{
+	background-color:#FF3;
+	height: 40px;
+	width: 165px;
+	text-align: center;
+	left: 170px;
+	top: 0px;
+	position:absolute;
+	}
+.tabmen3{
+	background-color:#FF6;
+	height: 40px;
+	width: 165px;
+	text-align: center;
+	left: 335px;
+	top: 0px;
+	position:absolute;
+	}
+.tabmen4{
+	background-color:#FF9;
+	height: 40px;
+	width: 165px;
+	text-align: center;
+	left: 500px;
+	top: 0px;
+	position:absolute;
+	}
+.tabmen5{
+	background-color:#FFC;
+	height: 40px;
+	width: 165px;
+	right: 170px;
+	text-align: center;
+	position:absolute;
+	}
+.tabmen6{
+	background-color:#FF0004;
+	height: 40px;
+	width: 170px;
+	text-align: center;
+	right: 0px;
+	top: 0px;
+	position:absolute;
+	}
+	
+.ShowHit{
+	background-color:#0FC;
+	height: 200px;
+	width: 635px;
+	text-align: center;
+	left: 350px;
+	position:absolute;
+	top: 370px;
+	}
+
+	
+	/*search box*/
+	#tfheader{
+		background-color:#FFFFFF;
+	}
+	#tfnewsearch{
+		float:right;
+		padding:20px;
+	}
+	.tftextinput{
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		border:1px solid #0076a3; border-right:0px;
+		border-top-left-radius: 5px 5px;
+		border-bottom-left-radius: 5px 5px;
+	}
+	.tfbutton {
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		border: solid 1px #0076a3; border-right:0px;
+		background: #FFFFFF;
+		background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+		background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+	}
+	.tfbutton:hover {
+		text-decoration: none;
+		background: #007ead;
+		background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+		background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+	}
+	/* Fixes submit button height problem in Firefox */
+	.tfbutton::-moz-focus-inner {
+	  border: 0;
+	}
+	.tfclear{
+		clear:both;
+	}
+</style>

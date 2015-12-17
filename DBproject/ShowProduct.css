@@ -1,0 +1,742 @@
+@charset "utf-8";
+/* CSS Document */
+<style type="text/css">
+.head1 {
+	background-color: #0F3;
+}
+.test {
+	background-color: #FFFFFF;
+	background-position: center top;
+	height: 2000px;
+	width: 1000px;
+	text-align: center;
+	position: absolute;
+	left: 171px;
+	top: 5px;
+}
+
+.test2{
+	background-color:#90F;
+	
+	height: 200px;
+	width: 1000px;
+	text-align: center;
+	left: 0px;
+	position:absolute;
+	}
+.ShowList{
+	background-color:#6F0;
+	height: 80px;
+	width: 200px;
+	text-align: center;
+	left: 50px;
+	position:absolute;
+	top: 300px;
+	}
+.SearchBox{
+	background-color:transparent;
+	height: 26px;
+	width: 500px;
+	text-align: left;
+	left: 350px;
+	position: absolute;
+	top: 300px;
+	font-size: 24px;
+	}
+.SearchPrice{
+	background-color:transparent;
+	height: 40px;
+	width: 180px;
+	text-align: left;
+	left: 845px;
+	position: absolute;
+	top: 300px;
+	font-size: 24px;
+	}
+.tabmenu1{
+	background-color:#FFFFFF;
+	height: 63px;
+	width: 184px;
+	text-align: center;
+	left: 50px;
+	position:absolute;
+	top: 300px;
+	}
+.tabmenu2{
+	background-color:#FFFFFF;
+	height: 63px;
+	width: 184px;
+	text-align: center;
+	left: 50px;
+	position:absolute;
+	top: 380px;
+	}
+.tabmenu3{
+	background-color:#FFFFFF;
+	height: 63px;
+	width: 184px;
+	text-align: center;
+	left: 50px;
+	position:absolute;
+	top: 460px;
+	}
+.tabmenu4{
+	background-color:#FFFFFF;
+	height: 63px;
+	width: 184px;
+	text-align: center;
+	left: 50px;
+	position:absolute;
+	top: 540px;
+	}
+.tabmenu5{
+	background-color:#0F0;
+	height: 50px;
+	width: 200px;
+	text-align: center;
+	left: 50px;
+	position:absolute;
+	top: 750px;
+	}
+	.tab{
+	background-color:#9F0;
+	height: 40px;
+	width: 1000px;
+	text-align: center;
+	left: 0px;
+	top: 200px;
+	position:absolute;
+	}
+	.tabmen{
+	background-color:#FF0004;
+	height: 40px;
+	width: 170px;
+	text-align: center;
+	left: 0px;
+	top: 0px;
+	position:absolute;
+	}
+.tabmen2{
+	background-color:#FF3;
+	height: 40px;
+	width: 165px;
+	text-align: center;
+	left: 170px;
+	top: 0px;
+	position:absolute;
+	}
+.tabmen3{
+	background-color:#FF6;
+	height: 40px;
+	width: 165px;
+	text-align: center;
+	left: 335px;
+	top: 0px;
+	position:absolute;
+	}
+.tabmen4{
+	background-color:#FF9;
+	height: 40px;
+	width: 165px;
+	text-align: center;
+	left: 500px;
+	top: 0px;
+	position:absolute;
+	}
+.tabmen5{
+	background-color:#FFC;
+	height: 40px;
+	width: 165px;
+	right: 170px;
+	text-align: center;
+	position:absolute;
+	}
+.tabmen6{
+	background-color:#FF0004;
+	height: 40px;
+	width: 170px;
+	text-align: center;
+	right: 0px;
+	top: 0px;
+	position:absolute;
+	}	
+.ShowHit{
+	background-color:#FFF;
+	height: 200px;
+	width: 635px;
+	text-align: center;
+	left: 350px;
+	position:absolute;
+	top: 370px;
+	}
+.hit1{
+	background-color:#FFF;
+	height: 200px;
+	width: 300px;
+	text-align: center;
+	left: 0px;
+	position:absolute;
+	top: 0px;
+	}	
+.hit2{
+	background-color:#FFF;
+	height: 200px;
+	width: 335px;
+	text-align: center;
+	left: 300px;
+	position:absolute;
+	top: 0px;
+	}	
+.Product1{
+	background-color:#ffffff;
+	height: 200px;
+	width: 200px;
+	text-align: center;
+	left: 350px;
+	position:absolute;
+	top: 610px;
+	}
+.Product4{
+	background-color:#ffffff;
+	height: 200px;
+	width: 200px;
+	text-align: center;
+	left: 350px;
+	position:absolute;
+	top: 840px;
+	}
+.Product7{
+	background-color:#ffffff;
+	height: 200px;
+	width: 200px;
+	text-align: center;
+	left: 350px;
+	position:absolute;
+	top: 1070px;
+	}
+.Product2{
+	background-color:#ffffff;
+	height: 200px;
+	width: 200px;
+	text-align: center;
+	left: 570px;
+	position:absolute;
+	top: 610px;
+	}
+.Product5{
+	background-color:#ffffff;
+	height: 200px;
+	width: 200px;
+	text-align: center;
+	left: 570px;
+	position:absolute;
+	top: 840px;
+	}
+.Product8{
+	background-color:#ffffff;
+	height: 200px;
+	width: 200px;
+	text-align: center;
+	left: 570px;
+	position:absolute;
+	top: 1070px;
+	}
+.Product3{
+	background-color:#ffffff;
+	height: 200px;
+	width: 200px;
+	text-align: center;
+	left: 790px;
+	position:absolute;
+	top: 610px;
+	}
+.Product6{
+	background-color:#ffffff;
+	height: 200px;
+	width: 200px;
+	text-align: center;
+	left: 790px;
+	position:absolute;
+	top: 840px;
+	}
+.Product9{
+	background-color:#ffffff;
+	height: 200px;
+	width: 200px;
+	text-align: center;
+	left: 790px;
+	position:absolute;
+	top: 1070px;
+	}
+.Product10{
+	background-color:#ffffff;
+	height: 200px;
+	width: 200px;
+	text-align: center;
+	left: 1010px;
+	position:absolute;
+	top: 610px;
+	}
+.Product11{
+	background-color:#ffffff;
+	height: 200px;
+	width: 200px;
+	text-align: center;
+	left: 1010px;
+	position:absolute;
+	top: 840px;
+	}
+.Product12{
+	background-color:#ffffff;
+	height: 200px;
+	width: 200px;
+	text-align: center;
+	left: 1010px;
+	position:absolute;
+	top: 1070px;
+	}
+.Product13{
+	background-color:#ffffff;
+	height: 200px;
+	width: 200px;
+	text-align: center;
+	left: 1230px;
+	position:absolute;
+	top: 610px;
+	}
+.Product14{
+	background-color:#ffffff;
+	height: 200px;
+	width: 200px;
+	text-align: center;
+	left: 1230px;
+	position:absolute;
+	top: 840px;
+	}
+.Product15{
+	background-color:#ffffff;
+	height: 200px;
+	width: 200px;
+	text-align: center;
+	left: 1230px;
+	position:absolute;
+	top: 1070px;
+	}
+	.Product16{
+	background-color:#ffffff;
+	height: 200px;
+	width: 200px;
+	text-align: center;
+	left: 1450px;
+	position:absolute;
+	top: 610px;
+	}
+.Product17{
+	background-color:#ffffff;
+	height: 200px;
+	width: 200px;
+	text-align: center;
+	left: 1450px;
+	position:absolute;
+	top: 840px;
+	}
+.Product18{
+	background-color:#ffffff;
+	height: 200px;
+	width: 200px;
+	text-align: center;
+	left: 1450px;
+	position:absolute;
+	top: 1070px;
+	}
+.ShowProduct1{
+	background-color:transparent;
+	height: 200px;
+	width: 700px;
+	text-align: center;
+	left: 300px;
+	position:absolute;
+	top: 350px;
+	}
+.ShowProduct2{
+	background-color:transparent;
+	height: 200px;
+	width: 700px;
+	text-align: center;
+	left: 300px;
+	position:absolute;
+	top: 560px;
+	}
+.ShowProduct3{
+	background-color:transparent;
+	height: 200px;
+	width: 700px;
+	text-align: center;
+	left: 300px;
+	position:absolute;
+	top: 770px;
+	}
+.ShowProduct4{
+	background-color:transparent;
+	height: 200px;
+	width: 700px;
+	text-align: center;
+	left: 300px;
+	position:absolute;
+	top: 980px;
+	}
+.ShowProduct5{
+	background-color:transparent;
+	height: 200px;
+	width: 700px;
+	text-align: center;
+	left: 300px;
+	position:absolute;
+	top: 1190px;
+	}
+.ShowProduct6{
+	background-color:transparent;
+	height: 200px;
+	width: 700px;
+	text-align: center;
+	left: 300px;
+	position:absolute;
+	top: 1400px;
+	}
+.ShowProduct7{
+	background-color:transparent;
+	height: 200px;
+	width: 700px;
+	text-align: center;
+	left: 300px;
+	position:absolute;
+	top: 1610px;
+	}
+.AProduct1{
+	background-color:transparent;
+	height: 200px;
+	width: 200px;
+	text-align: center;
+	left: 10px;
+	position:absolute;
+	
+	}
+.PositionName1{
+	background-color:transparent;
+	height: 50px;
+	width: 200px;
+	text-align: center;
+	left: 300px;
+	position:absolute;
+	top: 40px;
+	}
+.PositionPrice1{
+	background-color:transparent;
+	height: 50px;
+	width: 200px;
+	text-align: center;
+	left: 300px;
+	position:absolute;
+	top: 100px;
+	}
+.PositionDetail1{
+	background-color:transparent;
+	height: 50px;
+	width: 100px;
+	text-align: center;
+	left: 550px;
+	position:absolute;
+	top: 70px;
+	}
+.AProduct2{
+	background-color:transparent;
+	height: 200px;
+	width: 200px;
+	text-align: center;
+	left: 10px;
+	position:absolute;
+	
+	}
+.PositionName2{
+	background-color:transparent;
+	height: 50px;
+	width: 200px;
+	text-align: center;
+	left: 300px;
+	position:absolute;
+	top: 40px;
+	}
+.PositionPrice2{
+	background-color:transparent;
+	height: 50px;
+	width: 200px;
+	text-align: center;
+	left: 300px;
+	position:absolute;
+	top: 100px;
+	}
+.PositionDetail2{
+	background-color:transparent;
+	height: 50px;
+	width: 100px;
+	text-align: center;
+	left: 550px;
+	position:absolute;
+	top: 70px;
+	}
+.AProduct3{
+	background-color:transparent;
+	height: 200px;
+	width: 200px;
+	text-align: center;
+	left: 10px;
+	position:absolute;
+	
+	}
+.PositionName3{
+	background-color:transparent;
+	height: 50px;
+	width: 200px;
+	text-align: center;
+	left: 300px;
+	position:absolute;
+	top: 40px;
+	}
+.PositionPrice3{
+	background-color:transparent;
+	height: 50px;
+	width: 200px;
+	text-align: center;
+	left: 300px;
+	position:absolute;
+	top: 100px;
+	}
+.PositionDetail3{
+	background-color:transparent;
+	height: 50px;
+	width: 100px;
+	text-align: center;
+	left: 550px;
+	position:absolute;
+	top: 70px;
+	}
+.AProduct4{
+	background-color:transparent;
+	height: 200px;
+	width: 200px;
+	text-align: center;
+	left: 10px;
+	position:absolute;
+	
+	}
+.PositionName4{
+	background-color:transparent;
+	height: 50px;
+	width: 200px;
+	text-align: center;
+	left: 300px;
+	position:absolute;
+	top: 40px;
+	}
+.PositionPrice4{
+	background-color:transparent;
+	height: 50px;
+	width: 200px;
+	text-align: center;
+	left: 300px;
+	position:absolute;
+	top: 100px;
+	}
+.PositionDetail4{
+	background-color:inherit;
+	height: 50px;
+	width: 100px;
+	text-align: center;
+	left: 550px;
+	position:absolute;
+	top: 70px;
+	}
+.AProduct5{
+	background-color:transparent;
+	height: 200px;
+	width: 200px;
+	text-align: center;
+	left: 10px;
+	position:absolute;
+	
+	}
+.PositionName5{
+	background-color:transparent;
+	height: 50px;
+	width: 200px;
+	text-align: center;
+	left: 300px;
+	position:absolute;
+	top: 40px;
+	}
+.PositionPrice5{
+	background-color:transparent;
+	height: 50px;
+	width: 200px;
+	text-align: center;
+	left: 300px;
+	position:absolute;
+	top: 100px;
+	}
+.PositionDetail5{
+	background-color:transparent;
+	height: 50px;
+	width: 100px;
+	text-align: center;
+	left: 550px;
+	position:absolute;
+	top: 70px;
+	}
+.AProduct6{
+	background-color:transparent;
+	height: 200px;
+	width: 200px;
+	text-align: center;
+	left: 10px;
+	position:absolute;
+	
+	}
+.PositionName6{
+	background-color:transparent;
+	height: 50px;
+	width: 200px;
+	text-align: center;
+	left: 300px;
+	position:absolute;
+	top: 40px;
+	}
+.PositionPrice6{
+	background-color:transparent;
+	height: 50px;
+	width: 200px;
+	text-align: center;
+	left: 300px;
+	position:absolute;
+	top: 100px;
+	}
+.PositionDetail6{
+	background-color:transparent;
+	height: 50px;
+	width: 100px;
+	text-align: center;
+	left: 550px;
+	position:absolute;
+	top: 70px;
+	}
+.AProduct7{
+	background-color:transparent;
+	height: 200px;
+	width: 200px;
+	text-align: center;
+	left: 10px;
+	position:absolute;
+	
+	}
+.PositionName7{
+	background-color:transparent;
+	height: 50px;
+	width: 200px;
+	text-align: center;
+	left: 300px;
+	position:absolute;
+	top: 40px;
+	}
+.PositionPrice7{
+	background-color:transparent;
+	height: 50px;
+	width: 200px;
+	text-align: center;
+	left: 300px;
+	position:absolute;
+	top: 100px;
+	}
+.PositionDetail7{
+	background-color:transparent
+	height: 50px;
+	width: 100px;
+	text-align: center;
+	left: 550px;
+	position:absolute;
+	top: 70px;
+	}
+.delete{
+	background-color: #0F6;
+	height: 40px;
+	width: 60px;
+	text-align: center;
+	left: 450px;
+	position:absolute;
+	top: 70px;
+	}
+.delete2{
+	background-color: #0F6;
+	height: 40px;
+	width: 300px;
+	text-align: center;
+	left: 400px;
+	position:absolute;
+	top: 300px;
+	}
+.delete3{
+	background-color: #0F6;
+	height: 40px;
+	width: 50px;
+	text-align: center;
+	left: 700px;
+	position:absolute;
+	top: 300px;
+	}
+
+	/*search box*/
+	#tfheader{
+		background-color:#FFFFFF;
+	}
+	#tfnewsearch{
+		float:right;
+		padding:20px;
+	}
+	.tftextinput{
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		border:1px solid #0076a3; border-right:0px;
+		border-top-left-radius: 5px 5px;
+		border-bottom-left-radius: 5px 5px;
+	}
+	.tfbutton {
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		border: solid 1px #0076a3; border-right:0px;
+		background: #FFFFFF;
+		background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+		background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+	}
+	.tfbutton:hover {
+		text-decoration: none;
+		background: #007ead;
+		background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+		background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+	}
+	/* Fixes submit button height problem in Firefox */
+	.tfbutton::-moz-focus-inner {
+	  border: 0;
+	}
+	.tfclear{
+		clear:both;
+	}
+</style>
